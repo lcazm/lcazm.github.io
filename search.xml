@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hexo+Next如何给文章分类]]></title>
+    <url>%2F2019%2F08%2F19%2FFirstNight%2F</url>
+    <content type="text"><![CDATA[首先建立一个分类页面： hexo new page categories 编辑刚新建的页面，给其添加一个type，这是为了正确导航： title: 分类 date: 2014-12-22 12:39:04 type: &quot;categories&quot; --- 第二步，在左侧显示分类菜单，我们找到主题文件夹中的_config.yml文件(当前主题为next)，然后配置路径： appreciation: /categories/动画鉴赏/ || home (注意：|| home是图标) 注意：appreciation是标识，会在左侧菜单中显示，可以通过配置翻译为中文。这里配置好后，点击左侧现实的‘动画鉴赏’就能找到该分类的所有文章了。 第三步，我们新建一个文章，在./source/_posts路径下新建一个md后缀文件(要学习Markdown写文章了–)然后为这个文章添加分类(不可以添加多个分类)： title: 文章标题 date: 2015-11-22 12:39:04 categories: 动画鉴赏 --- 至此，大功告成！ 如果这样写： categories: - 动画鉴赏 - 技术百科 - 技术百科2 虽然文章会显示属于两个分类，但’技术百科’这个分类是’动画鉴赏’的子类，并不是同级的。]]></content>
+      <categories>
+        <category>技术百科</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F08%2F19%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. 小毛驴呢！ Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <categories>
+        <category>动画鉴赏</category>
+      </categories>
+  </entry>
+</search>
