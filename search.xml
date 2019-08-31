@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hexo+Next如何给文章分类]]></title>
-    <url>%2F2019%2F08%2F19%2FFirstNight%2F</url>
-    <content type="text"><![CDATA[首先建立一个分类页面： hexo new page categories 编辑刚新建的页面，给其添加一个type，这是为了正确导航： title: 分类 date: 2014-12-22 12:39:04 type: &quot;categories&quot; --- 第二步，在左侧显示分类菜单，我们找到主题文件夹中的_config.yml文件(当前主题为next)，然后配置路径： appreciation: /categories/动画鉴赏/ || home (注意：|| home是图标) 注意：appreciation是标识，会在左侧菜单中显示，可以通过配置翻译为中文。这里配置好后，点击左侧现实的‘动画鉴赏’就能找到该分类的所有文章了。 第三步，我们新建一个文章，在./source/_posts路径下新建一个md后缀文件(要学习Markdown写文章了–)然后为这个文章添加分类(不可以添加多个分类)： title: 文章标题 date: 2015-11-22 12:39:04 categories: 动画鉴赏 --- 至此，大功告成！ 如果这样写： categories: - 动画鉴赏 - 技术百科 - 技术百科2 虽然文章会显示属于两个分类，但’技术百科’这个分类是’动画鉴赏’的子类，并不是同级的。]]></content>
+    <title><![CDATA[摇曳庄的幽奈小姐]]></title>
+    <url>%2F2019%2F08%2F31%2F%E6%91%87%E6%9B%B3%E5%BA%84%E7%9A%84%E5%B9%BD%E5%A5%88%E5%B0%8F%E5%A7%90%2F</url>
+    <content type="text"><![CDATA[原始作品：漫画改编动画导演：长泽刚作画监督：竹谷今日子，高见明男动画脚本：子安秀明角色设计：竹谷今日子动画集数：12集+3OVA制作公司：船社（XEBEC）发行日期：2018年夏季番 主要人物 冬空凩（ふゆぞら コガラシ） 配音：小野友树 身为肉体派灵能力者的高中生。因曾被各种各样的灵魂附体过，所以习得了各种各样的特技。 汤之花幽奈（ゆのはな ゆうな） 配音：岛袋美由利 摇曳庄的女高中生地缚灵。一感到害羞就会引发灵骚现象。 宫崎千纱希（みやざき ちさき） 配音：铃木绘理 冬空凩的同学，偶像级的美少女。有着轻微的H妄想症。 主要参数 工口：★★★★★搞笑：★★★★☆画面：★★★★☆剧情：★★★☆观感：★★★★☆ 评语（以下内容可能含剧透） 缺点是剧情不太好，也没有出包王女有意思。不过无修版卖肉还是厉害。纯卖肉番剧吧，外带点搞笑。看多了感觉没什么意思，要是刚入坑那会，我估计会挺喜欢。 评分：9.6推荐等级：S补番日期：2019.08.15 摇曳庄的幽奈小姐 在线观看]]></content>
       <categories>
-        <category>技术百科</category>
+        <category>后宫番</category>
       </categories>
   </entry>
   <entry>
@@ -14,6 +14,14 @@
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. 小毛驴呢！ Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
       <categories>
         <category>动画鉴赏</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo+Next如何给文章分类]]></title>
+    <url>%2F2019%2F08%2F19%2FFirstNight%2F</url>
+    <content type="text"><![CDATA[首先建立一个分类页面： hexo new page categories 编辑刚新建的页面，给其添加一个type，这是为了正确导航： title: 分类 date: 2014-12-22 12:39:04 type: &quot;categories&quot; --- 第二步，在左侧显示分类菜单，我们找到主题文件夹中的_config.yml文件(当前主题为next)，然后配置路径： appreciation: /categories/动画鉴赏/ || home (注意：|| home是图标) 注意：appreciation是标识，会在左侧菜单中显示，可以通过配置翻译为中文。这里配置好后，点击左侧现实的‘动画鉴赏’就能找到该分类的所有文章了。 第三步，我们新建一个文章，在./source/_posts路径下新建一个md后缀文件(要学习Markdown写文章了–)然后为这个文章添加分类(不可以添加多个分类)： title: 文章标题 date: 2015-11-22 12:39:04 categories: 动画鉴赏 --- 至此，大功告成！ 如果这样写： categories: - 动画鉴赏 - 技术百科 - 技术百科2 虽然文章会显示属于两个分类，但’技术百科’这个分类是’动画鉴赏’的子类，并不是同级的。]]></content>
+      <categories>
+        <category>技术百科</category>
       </categories>
   </entry>
 </search>
